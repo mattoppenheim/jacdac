@@ -14,8 +14,8 @@
   )
 
   (lib_symbols
-    (symbol "Jacdac:Conn_Jacdac_CardEdge" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (id 0) (at -8.89 10.16 0)
+    (symbol "Jacdac:Conn_Jacdac_CardEdge" (pin_names (offset 1.016)) (in_bom no) (on_board yes)
+      (property "Reference" "EC" (id 0) (at -8.89 10.16 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
       (property "Value" "Conn_Jacdac_CardEdge" (id 1) (at 10.16 -12.7 0)
@@ -443,10 +443,10 @@
 
   (symbol_instances
     (path "/87cc8e3f-85a6-4c3c-a1d3-799dd6036f0d"
-      (reference "J1") (unit 1) (value "Conn_Jacdac_CardEdge") (footprint "Jacdac:JD-PEC-02_Prerouted_recessed")
+      (reference "EC1") (unit 1) (value "Conn_Jacdac_CardEdge") (footprint "Jacdac:JD-PEC-02_Prerouted_recessed")
     )
     (path "/5c4b0b64-2aab-4c30-a240-d18967de9d6e"
-      (reference "J2") (unit 1) (value "Conn_Jacdac_CardEdge") (footprint "Jacdac:JD-PEC-02_Prerouted_recessed")
+      (reference "EC2") (unit 1) (value "Conn_Jacdac_CardEdge") (footprint "Jacdac:JD-PEC-02_Prerouted_recessed")
     )
     (path "/bd2e92a0-8e6a-4ea0-88fb-c20a963ad330"
       (reference "MH1") (unit 1) (value "jacdac_hole_DATA_MH1") (footprint "Jacdac:jacdac_hole_DATA_notched_MH1")
