@@ -6,11 +6,11 @@
 
   (title_block
     (title "Jacdac EC30 20x20mm template")
-    (date "2022-06-10")
-    (rev "v0.0")
-    (comment 1 "Licence: Attribution 4.0 International (CC BY 4.0)")
-    (comment 2 "Matthew Oppenheim")
-    (comment 3 "Conforms to: \"EC\" template: 20x20mm MH, 1 + 1 conns v1.0")
+    (date "2022-06-13")
+    (rev "v1.0")
+    (comment 1 "Conforms with: \"EC\" template: 20x20mm MH, 1 + 1 conns v1.0")
+    (comment 2 "Licence: Attribution 4.0 International (CC BY 4.0)")
+    (comment 3 "Matthew Oppenheim")
   )
 
   (lib_symbols
