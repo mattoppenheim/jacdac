@@ -1,5 +1,4 @@
-Kicad board template, footprints and symbols for the [Microsoft Jacdac project]
-(https://microsoft.github.io/jacdac-docs).
+Kicad board template, footprints and symbols for the [Microsoft Jacdac project](https://aka.ms/jacdac).
 
 20x20mm board outline template with two Jacdac connectors.
 
