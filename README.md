@@ -2,8 +2,13 @@ Kicad board template, footprints and symbols for the [Microsoft Jacdac project](
 
 20x20mm board outline template with two Jacdac connectors.
 
-This project only loads with the Kicad nightly development build version of Kicad.
+This project was created with the Kicad nightly development build version of Kicad, currently:
 
-This conforms with 'Jacdac "EC" template: 20x20mm MH, 1+1 conns' v1.0.
+Version: 6.99.0-unknown-2094+g9f38fa43cd+deb11, release build, running on Debian
+Linux.
+
+The board design conforms with drawing JacdacEc30Template20x20 80-1.0 drawing.PDF.
+
+The Jacdac edge connector conforms with drawing JacdacEdgeConnectorRef 101-1.1 drawing.PDF.
 
 Licence: Attribution 4.0 International (CC BY 4.0)
