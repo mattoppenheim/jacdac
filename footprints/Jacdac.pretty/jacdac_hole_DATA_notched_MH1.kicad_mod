@@ -1,4 +1,4 @@
-(footprint "jacdac_hole_DATA_notched_MH1" (version 20220427) (generator pcbnew)
+(footprint "jacdac_hole_DATA_notched_MH1" (version 20220815) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "Ref**" (at 0.6 -4.6) (layer "Cmts.User") hide
@@ -1258,6 +1258,10 @@
     (stroke (width 0.1) (type default)) (layer "Cmts.User") (tstamp 8ad4d9ee-0318-4182-8032-6f92a77b51bd))
   (fp_arc (start 2 4.5) (mid 1 3.5) (end 2 2.5)
     (stroke (width 0.1) (type default)) (layer "Cmts.User") (tstamp 3f3d62f5-a9e7-4c7b-82dc-40048a6b08aa))
+  (fp_rect (start -2.2 -2.2) (end 0 0)
+    (stroke (width 0.05) (type solid)) (fill solid) (layer "Eco1.User") (tstamp 6c0f0b79-c5a1-4291-84e9-787daef7b0b5))
+  (fp_rect (start 0 0) (end 2.2 2.2)
+    (stroke (width 0.05) (type solid)) (fill solid) (layer "Eco1.User") (tstamp 3a55b91a-66f4-427f-a6ae-0748af07016a))
   (fp_line (start 0 -2.5) (end -2.5 -2.5)
     (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp 4b3d4d7a-6792-403f-82b2-f152d7be1aff))
   (fp_line (start 2 2.5) (end 2.3 2.499998)
@@ -1298,7 +1302,8 @@
     (stroke (width 0.05) (type default)) (layer "F.CrtYd") (tstamp 5546dec5-2932-4e02-9608-fca6bf60bb33))
   (fp_arc (start 3.5 0) (mid 3.240728 1.346291) (end 2.5 2.5)
     (stroke (width 0.05) (type default)) (layer "F.CrtYd") (tstamp c03d2bed-6e1e-4418-9aa7-31d1b81da09c))
-  (pad "MH1" smd custom (at 0 0 45) (size 1 1) (layers "F.Cu" "F.Mask")
+  (pad "MH1" smd custom (at 0 0 45) (size 1 1) (property pad_prop_fiducial_loc) (layers "F.Cu" "F.Mask")
+    (thermal_bridge_angle 45)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly
@@ -1308,13 +1313,13 @@
           (xy 0 3.11127)
           (arc (start 1.555635 1.555635) (mid 2.2 0) (end 1.555635 -1.555635))
         )
- (width 0) (fill yes))
-    ) (tstamp 7d3c7eff-d509-4239-a8bc-372de0f64f6b))
+        (width 0) (fill yes))
+    ) (tstamp 8001fdc1-b9e5-4f84-85ca-8ea73d7774e9))
   (pad "MH1" thru_hole circle (at 0 0 45) (size 4.4 4.4) (drill 3.08) (property pad_prop_fiducial_loc) (layers *.Cu *.Mask) (tstamp 00eb18a1-7b62-4a21-b5a0-24964c6d894e))
   (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 93b94641-c46f-4918-8fbf-6b7b652a1d88) (hatch edge 0.508)
     (connect_pads (clearance 0))
     (min_thickness 0.254) (filled_areas_thickness no)
-    (keepout (tracks allowed) (vias allowed) (pads allowed ) (copperpour not_allowed) (footprints allowed))
+    (keepout (tracks allowed) (vias allowed) (pads allowed) (copperpour not_allowed) (footprints allowed))
     (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
