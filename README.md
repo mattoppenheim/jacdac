@@ -4,8 +4,9 @@ Kicad board template, footprints and symbols for the [Microsoft Jacdac project](
 
 This project was created with the Kicad nightly development build version of Kicad, currently:
 
-Version: 6.99.0-unknown-2094+g9f38fa43cd+deb11, release build, running on Debian
-Linux.
+Application: KiCad
+
+Version: 6.99.0-unknown-2887+gf4fa3b02c5+deb11, release build, running on Debian.
 
 The board design conforms with drawing 'JacdacEc30Template20x20 80-1.0 drawing.PDF'.
 
