@@ -1,3 +1,5 @@
+Find an updated fork of this repository here: [https://github.com/mac-aron/jacdac-kicad](https://github.com/mac-aron/jacdac-kicad)
+
 Kicad board template, footprints and symbols for the [Microsoft Jacdac project](https://aka.ms/jacdac).
 
 20x20mm board outline template with two Jacdac connectors.
